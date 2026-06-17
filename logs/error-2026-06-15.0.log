@@ -1,0 +1,4 @@
+2026-06-15 11:42:27 [http-nio-9090-exec-6] ERROR E.Service.employeeService [TraceID: ] [Path: ] - Employee not found with ID: 1112
+2026-06-15 11:42:27 [http-nio-9090-exec-6] ERROR E.E.GlobalExceptionHandler [TraceID: ] [Path: ] - Employee not found: Employee not found with ID: 1112
+2026-06-15 11:44:21 [http-nio-9090-exec-2] ERROR E.Service.employeeService [TraceID: ] [Path: ] - Cannot delete - Employee not found with ID: 1104
+2026-06-15 11:44:21 [http-nio-9090-exec-2] ERROR E.E.GlobalExceptionHandler [TraceID: ] [Path: ] - Employee not found: Employee not found with ID: 1104

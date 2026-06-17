@@ -1,0 +1,9 @@
+2026-06-16 18:00:36 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 16160 (C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem)
+2026-06-16 18:00:36 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-16 18:00:38 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-16 18:00:38 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-16 18:00:38 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-16 18:00:38 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-16 18:00:44 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-16 18:00:44 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 8.666 seconds (process running for 10.846)
+2026-06-16 18:01:06 INFO  [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'

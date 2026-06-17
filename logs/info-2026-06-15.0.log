@@ -1,0 +1,97 @@
+2026-06-15 11:39:54 [main] INFO  E.EmployeeManagementSystemApplication [TraceID: ] [Path: ] - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 8640 (C:\Users\shivraj.mahatme\Downloads\EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Downloads\EmployeeManagementSystem)
+2026-06-15 11:39:54 [main] INFO  E.EmployeeManagementSystemApplication [TraceID: ] [Path: ] - No active profile set, falling back to 1 default profile: "default"
+2026-06-15 11:40:02 [main] INFO  E.EmployeeManagementSystemApplication [TraceID: ] [Path: ] - Started EmployeeManagementSystemApplication in 9.253 seconds (process running for 12.097)
+2026-06-15 11:40:07 [http-nio-9090-exec-1] INFO  E.Controller.EmployeeController [TraceID: ] [Path: ] - POST /employee/save called with 10 record(s)
+2026-06-15 11:40:07 [http-nio-9090-exec-1] INFO  E.Service.employeeService [TraceID: ] [Path: ] - Saving 10 employee(s)
+2026-06-15 11:40:07 [http-nio-9090-exec-1] INFO  E.Service.employeeService [TraceID: ] [Path: ] - Employees saved successfully
+2026-06-15 11:41:59 [http-nio-9090-exec-5] INFO  E.Controller.EmployeeController [TraceID: ] [Path: ] - GET /employee/view called
+2026-06-15 11:41:59 [http-nio-9090-exec-5] INFO  E.Service.employeeService [TraceID: ] [Path: ] - Fetching all employees
+2026-06-15 11:41:59 [http-nio-9090-exec-5] INFO  E.Service.employeeService [TraceID: ] [Path: ] - Total employees found: 38
+2026-06-15 11:42:27 [http-nio-9090-exec-6] INFO  E.Controller.EmployeeController [TraceID: ] [Path: ] - GET /employee/view/1112 called
+2026-06-15 11:42:27 [http-nio-9090-exec-6] INFO  E.Service.employeeService [TraceID: ] [Path: ] - Fetching employee with ID: 1112
+2026-06-15 11:42:42 [http-nio-9090-exec-7] INFO  E.Controller.EmployeeController [TraceID: ] [Path: ] - GET /employee/view/2003 called
+2026-06-15 11:42:42 [http-nio-9090-exec-7] INFO  E.Service.employeeService [TraceID: ] [Path: ] - Fetching employee with ID: 2003
+2026-06-15 11:43:51 [http-nio-9090-exec-10] INFO  E.Controller.EmployeeController [TraceID: ] [Path: ] - PUT /employee/update/1109 called
+2026-06-15 11:43:51 [http-nio-9090-exec-10] INFO  E.Service.employeeService [TraceID: ] [Path: ] - Updating employee with ID: 1109
+2026-06-15 11:43:51 [http-nio-9090-exec-10] INFO  E.Service.employeeService [TraceID: ] [Path: ] - Employee with ID 1109 updated successfully
+2026-06-15 11:44:21 [http-nio-9090-exec-2] INFO  E.Controller.EmployeeController [TraceID: ] [Path: ] - DELETE /employee/delete/1104 called
+2026-06-15 11:44:21 [http-nio-9090-exec-2] INFO  E.Service.employeeService [TraceID: ] [Path: ] - Deleting employee with ID: 1104
+2026-06-15 11:44:46 [http-nio-9090-exec-1] INFO  E.Controller.EmployeeController [TraceID: ] [Path: ] - DELETE /employee/delete/2003 called
+2026-06-15 11:44:46 [http-nio-9090-exec-1] INFO  E.Service.employeeService [TraceID: ] [Path: ] - Deleting employee with ID: 2003
+2026-06-15 11:44:46 [http-nio-9090-exec-1] INFO  E.Service.employeeService [TraceID: ] [Path: ] - Employee with ID 2003 deleted successfully
+2026-06-15 11:45:06 [http-nio-9090-exec-3] INFO  E.Controller.EmployeeController [TraceID: ] [Path: ] - GET /employee/search/name?name=Sachin Deshmukh called
+2026-06-15 11:45:06 [http-nio-9090-exec-3] INFO  E.Service.employeeService [TraceID: ] [Path: ] - Searching employees by name: Sachin Deshmukh
+2026-06-15 11:51:27 INFO  [background-preinit] o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.3.Final
+2026-06-15 11:51:27 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 3604 (C:\Users\shivraj.mahatme\Downloads\EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Downloads\EmployeeManagementSystem)
+2026-06-15 11:51:27 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-15 11:51:29 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-06-15 11:51:29 INFO  [main] o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 95 ms. Found 1 JPA repository interface.
+2026-06-15 11:51:30 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port 9090 (http)
+2026-06-15 11:51:30 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-15 11:51:30 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-15 11:51:30 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-15 11:51:30 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-15 11:51:30 INFO  [main] o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 2456 ms
+2026-06-15 11:51:30 INFO  [main] o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-06-15 11:51:30 INFO  [main] org.hibernate.Version - HHH000412: Hibernate ORM core version 6.6.53.Final
+2026-06-15 11:51:30 INFO  [main] o.h.c.i.RegionFactoryInitiator - HHH000026: Second-level cache disabled
+2026-06-15 11:51:31 INFO  [main] o.s.o.j.p.SpringPersistenceUnitInfo - No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-06-15 11:51:31 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2026-06-15 11:51:31 INFO  [main] com.zaxxer.hikari.pool.HikariPool - HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@49631cfb
+2026-06-15 11:51:31 INFO  [main] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2026-06-15 11:51:32 INFO  [main] o.hibernate.orm.connections.pooling - HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 23.26
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-06-15 11:51:33 INFO  [main] o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-06-15 11:51:33 INFO  [main] o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-06-15 11:51:34 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-15 11:51:34 INFO  [main] o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port 9090 (http) with context path '/'
+2026-06-15 11:51:34 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 7.191 seconds (process running for 8.764)
+2026-06-15 11:55:37 INFO  [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-06-15 11:55:37 INFO  [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-06-15 11:55:37 INFO  [SpringApplicationShutdownHook] o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-06-15 11:55:37 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2026-06-15 11:55:37 INFO  [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2026-06-15 11:55:44 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 8324 (C:\Users\shivraj.mahatme\Downloads\EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Downloads\EmployeeManagementSystem)
+2026-06-15 11:55:44 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-15 11:55:46 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-15 11:55:46 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-15 11:55:46 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-15 11:55:46 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-15 11:55:52 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-15 11:55:52 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 8.736 seconds (process running for 10.586)
+2026-06-15 11:58:22 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 14540 (C:\Users\shivraj.mahatme\Downloads\EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Downloads\EmployeeManagementSystem)
+2026-06-15 11:58:22 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-15 11:58:24 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-15 11:58:24 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-15 11:58:24 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-15 11:58:24 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-15 11:58:27 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-15 11:58:27 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 5.957 seconds (process running for 7.199)
+2026-06-15 11:58:40 INFO  [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-15 11:58:40 INFO  [http-nio-9090-exec-2] E.Controller.EmployeeController - GET /employee/search/name?name=Sachin Deshmukh called
+2026-06-15 11:58:40 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Searching employees by name: Sachin Deshmukh
+2026-06-15 11:59:58 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 8476 (C:\Users\shivraj.mahatme\Downloads\EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Downloads\EmployeeManagementSystem)
+2026-06-15 11:59:58 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-15 12:00:01 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-15 12:00:01 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-15 12:00:01 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-15 12:00:01 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-15 12:00:05 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-15 12:00:05 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 6.868 seconds (process running for 8.402)
+2026-06-15 12:00:15 INFO  [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-15 12:00:15 INFO  [http-nio-9090-exec-1] E.Controller.EmployeeController - GET /employee/search/name?name=Sachin Deshmukh called
+2026-06-15 12:00:15 INFO  [http-nio-9090-exec-1] E.Service.employeeService - Searching employees by name: Sachin Deshmukh
+2026-06-15 14:48:02 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 12808 (C:\Users\shivraj.mahatme\Downloads\ShivraMahatme_EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Downloads\ShivraMahatme_EmployeeManagementSystem)
+2026-06-15 14:48:02 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-15 14:48:05 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-15 14:48:05 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-15 14:48:05 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-15 14:48:05 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-15 14:48:10 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-15 14:48:10 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 8.502 seconds (process running for 10.239)

@@ -1,0 +1,17 @@
+2026-06-17 10:24:02 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 16148 (C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem)
+2026-06-17 10:24:02 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-17 10:24:06 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-17 10:24:06 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-17 10:24:06 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-17 10:24:06 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-17 10:24:16 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-17 10:24:16 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 16.55 seconds (process running for 20.937)
+2026-06-17 10:41:19 INFO  [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-17 10:46:58 INFO  [http-nio-9090-exec-4] E.Controller.EmployeeController - GET /employee/view called
+2026-06-17 10:46:58 INFO  [http-nio-9090-exec-4] E.Service.employeeService - Fetching all employees
+2026-06-17 10:46:59 INFO  [http-nio-9090-exec-4] E.Service.employeeService - Total employees found: 36
+2026-06-17 10:49:43 INFO  [http-nio-9090-exec-6] E.Controller.EmployeeController - GET /employee/search/designation?designation=Technical Writer
+2026-06-17 10:49:43 INFO  [http-nio-9090-exec-6] E.Service.employeeService - Searching by designation: Technical Writer
+2026-06-17 12:44:39 INFO  [http-nio-9090-exec-10] E.Controller.EmployeeController - GET /employee/view called
+2026-06-17 12:44:39 INFO  [http-nio-9090-exec-10] E.Service.employeeService - Fetching all employees
+2026-06-17 12:44:39 INFO  [http-nio-9090-exec-10] E.Service.employeeService - Total employees found: 36

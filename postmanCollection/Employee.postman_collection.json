@@ -1,0 +1,260 @@
+{
+	"info": {
+		"_postman_id": "3654a855-b24b-4126-be2f-e1a25ccaa405",
+		"name": "Employee",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "37136665"
+	},
+	"item": [
+		{
+			"name": "TestRequest",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "SaveEmp",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "[\r\n  {\r\n    \"empName\": \"Rahul Kulkarni\",\r\n    \"email\": \"rahul.kulkarni@example.com\",\r\n    \"empCode\": \"EMP-MH-001\",\r\n    \"designation\": \"Software Engineer\",\r\n    \"salary\": 65000,\r\n    \"status\": \"ACTIVE\"\r\n  },\r\n  {\r\n    \"empName\": \"Priyanka Joshi\",\r\n    \"email\": \"priyanka.joshi@example.com\",\r\n    \"empCode\": \"EMP-MH-002\",\r\n    \"designation\": \"Project Manager\",\r\n    \"salary\": 120000,\r\n    \"status\": \"ACTIVE\"\r\n  },\r\n  {\r\n    \"empName\": \"Sachin Deshmukh\",\r\n    \"email\": \"sachin.d@example.com\",\r\n    \"empCode\": \"EMP-MH-003\",\r\n    \"designation\": \"QA Analyst\",\r\n    \"salary\": 50000,\r\n    \"status\": \"ACTIVE\"\r\n  },\r\n  {\r\n    \"empName\": \"Snehal Patil\",\r\n    \"email\": \"snehal.patil@example.com\",\r\n    \"empCode\": \"EMP-MH-004\",\r\n    \"designation\": \"HR Specialist\",\r\n    \"salary\": 55000,\r\n    \"status\": \"ACTIVE\"\r\n  },\r\n  {\r\n    \"empName\": \"Amit Shinde\",\r\n    \"email\": \"amit.shinde@example.com\",\r\n    \"empCode\": \"EMP-MH-005\",\r\n    \"designation\": \"System Administrator\",\r\n    \"salary\": 70000,\r\n    \"status\": \"INACTIVE\"\r\n  },\r\n  {\r\n    \"empName\": \"Anjali Gaikwad\",\r\n    \"email\": \"anjali.g@example.com\",\r\n    \"empCode\": \"EMP-MH-006\",\r\n    \"designation\": \"UI/UX Designer\",\r\n    \"salary\": 60000,\r\n    \"status\": \"ACTIVE\"\r\n  },\r\n  {\r\n    \"empName\": \"Vikram Pawar\",\r\n    \"email\": \"vikram.pawar@example.com\",\r\n    \"empCode\": \"EMP-MH-007\",\r\n    \"designation\": \"DevOps Engineer\",\r\n    \"salary\": 95000,\r\n    \"status\": \"ACTIVE\"\r\n  },\r\n  {\r\n    \"empName\": \"Tanvi Bhosale\",\r\n    \"email\": \"tanvi.b@example.com\",\r\n    \"empCode\": \"EMP-MH-008\",\r\n    \"designation\": \"Business Analyst\",\r\n    \"salary\": 80000,\r\n    \"status\": \"RESIGNED\"\r\n  },\r\n  {\r\n    \"empName\": \"Aditya More\",\r\n    \"email\": \"aditya.more@example.com\",\r\n    \"empCode\": \"EMP-MH-009\",\r\n    \"designation\": \"Data Scientist\",\r\n    \"salary\": 110000,\r\n    \"status\": \"ACTIVE\"\r\n  },\r\n  {\r\n    \"empName\": \"Pallavi Jadhav\",\r\n    \"email\": \"pallavi.j@example.com\",\r\n    \"empCode\": \"EMP-MH-010\",\r\n    \"designation\": \"Technical Writer\",\r\n    \"salary\": 45000,\r\n    \"status\": \"ACTIVE\"\r\n  }\r\n]\r\n",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9090/employee/save",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"employee",
+						"save"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ViewAll",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/employee/view",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"employee",
+						"view"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ViewById",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9090/employee/view/1109",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"employee",
+						"view",
+						"1109"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": " {\r\n        \"empId\": 1109,\r\n        \"empName\": \"Manasi Jadhav\",\r\n        \"email\": \"manasi.jadhav@example.com\",\r\n        \"empCode\": \"EMP308\",\r\n        \"designation\": \"Java Developer\",\r\n        \"salary\": 75000,\r\n        \"status\": \"RESIGNED\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9090/employee/update/1109",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"employee",
+						"update",
+						"1109"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Delete",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"empId\": 1104,\r\n    \"empName\": \"Aditya Patil\",\r\n    \"email\": \"aditya.shinde@example.com\",\r\n    \"empCode\": \"EMP303\",\r\n    \"designation\": \"Java Backend Developer\",\r\n    \"salary\": 70000,\r\n    \"status\": \"ACTIVE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "localhost:9090/employee/delete/1104",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"employee",
+						"delete",
+						"1104"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search-Name",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"empId\": 1104,\r\n    \"empName\": \"Aditya Patil\",\r\n    \"email\": \"aditya.shinde@example.com\",\r\n    \"empCode\": \"EMP303\",\r\n    \"designation\": \"Java Backend Developer\",\r\n    \"salary\": 70000,\r\n    \"status\": \"ACTIVE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/employee/search/name?name=Sachin Deshmukh",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"employee",
+						"search",
+						"name"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Sachin Deshmukh"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search-Designation",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"empId\": 1104,\r\n    \"empName\": \"Aditya Patil\",\r\n    \"email\": \"aditya.shinde@example.com\",\r\n    \"empCode\": \"EMP303\",\r\n    \"designation\": \"Java Backend Developer\",\r\n    \"salary\": 70000,\r\n    \"status\": \"ACTIVE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/employee/search/designation?designation=Technical Writer",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"employee",
+						"search",
+						"designation"
+					],
+					"query": [
+						{
+							"key": "designation",
+							"value": "Technical Writer"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Search-Status",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"empId\": 1104,\r\n    \"empName\": \"Aditya Patil\",\r\n    \"email\": \"aditya.shinde@example.com\",\r\n    \"empCode\": \"EMP303\",\r\n    \"designation\": \"Java Backend Developer\",\r\n    \"salary\": 70000,\r\n    \"status\": \"ACTIVE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:9090/employee/search/status?status=ACTIVE",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "9090",
+					"path": [
+						"employee",
+						"search",
+						"status"
+					],
+					"query": [
+						{
+							"key": "status",
+							"value": "ACTIVE"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
