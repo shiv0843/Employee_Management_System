@@ -21,7 +21,7 @@ public class Employee {
 
     @Column(name = "Email")
     @NotBlank(message = "Email cannot be blank and Must be in Format")
-    @Email
+//    @Email
     private String email;
 
     @NotBlank(message = "Employee Code cannot be blank")
