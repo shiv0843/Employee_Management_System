@@ -1,17 +1,101 @@
-2026-06-17 10:24:02 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 16148 (C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem)
-2026-06-17 10:24:02 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
-2026-06-17 10:24:06 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
-2026-06-17 10:24:06 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
-2026-06-17 10:24:06 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
-2026-06-17 10:24:06 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
-2026-06-17 10:24:16 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
-2026-06-17 10:24:16 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 16.55 seconds (process running for 20.937)
-2026-06-17 10:41:19 INFO  [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-06-17 10:46:58 INFO  [http-nio-9090-exec-4] E.Controller.EmployeeController - GET /employee/view called
-2026-06-17 10:46:58 INFO  [http-nio-9090-exec-4] E.Service.employeeService - Fetching all employees
-2026-06-17 10:46:59 INFO  [http-nio-9090-exec-4] E.Service.employeeService - Total employees found: 36
-2026-06-17 10:49:43 INFO  [http-nio-9090-exec-6] E.Controller.EmployeeController - GET /employee/search/designation?designation=Technical Writer
-2026-06-17 10:49:43 INFO  [http-nio-9090-exec-6] E.Service.employeeService - Searching by designation: Technical Writer
-2026-06-17 12:44:39 INFO  [http-nio-9090-exec-10] E.Controller.EmployeeController - GET /employee/view called
-2026-06-17 12:44:39 INFO  [http-nio-9090-exec-10] E.Service.employeeService - Fetching all employees
-2026-06-17 12:44:39 INFO  [http-nio-9090-exec-10] E.Service.employeeService - Total employees found: 36
+2026-06-18 12:23:39 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 14644 (C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem)
+2026-06-18 12:23:39 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-18 12:23:41 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-18 12:23:41 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-18 12:23:41 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-18 12:23:41 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-18 12:23:46 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-18 12:23:47 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 7.998 seconds (process running for 10.024)
+2026-06-18 12:26:08 INFO  [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18 12:26:41 INFO  [http-nio-9090-exec-4] E.Controller.EmployeeController - POST /employee/save called with 5 record(s)
+2026-06-18 12:26:41 INFO  [http-nio-9090-exec-4] E.Service.employeeService - Saving 5 employee(s)
+2026-06-18 12:26:41 INFO  [http-nio-9090-exec-4] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:26:41 INFO  [http-nio-9090-exec-4] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:26:41 INFO  [http-nio-9090-exec-4] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:26:41 INFO  [http-nio-9090-exec-4] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:26:41 INFO  [http-nio-9090-exec-4] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:27:37 INFO  [http-nio-9090-exec-6] E.Controller.EmployeeController - POST /employee/save called with 5 record(s)
+2026-06-18 12:27:37 INFO  [http-nio-9090-exec-6] E.Service.employeeService - Saving 5 employee(s)
+2026-06-18 12:27:37 INFO  [http-nio-9090-exec-6] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:27:37 INFO  [http-nio-9090-exec-6] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:27:37 INFO  [http-nio-9090-exec-6] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:27:37 INFO  [http-nio-9090-exec-6] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:27:37 INFO  [http-nio-9090-exec-6] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:28:47 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 12284 (C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem)
+2026-06-18 12:28:47 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-18 12:28:49 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-18 12:28:49 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-18 12:28:49 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-18 12:28:49 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-18 12:28:53 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-18 12:28:53 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 6.706 seconds (process running for 8.244)
+2026-06-18 12:29:03 INFO  [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18 12:29:03 INFO  [http-nio-9090-exec-2] E.Controller.EmployeeController - POST /employee/save called with 5 record(s)
+2026-06-18 12:29:03 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Saving 5 employee(s)
+2026-06-18 12:29:03 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:29:03 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:29:03 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:29:03 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:29:03 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:32:38 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 16088 (C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem)
+2026-06-18 12:32:38 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-18 12:32:40 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-18 12:32:40 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-18 12:32:40 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-18 12:32:40 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-18 12:32:44 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-18 12:32:44 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 6.974 seconds (process running for 8.376)
+2026-06-18 12:32:49 INFO  [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18 12:32:49 INFO  [http-nio-9090-exec-2] E.Controller.EmployeeController - POST /employee/save called with 5 record(s)
+2026-06-18 12:32:49 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Saving 5 employee(s)
+2026-06-18 12:32:49 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:32:49 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:32:49 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:32:49 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:32:49 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:40:18 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 800 (C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem)
+2026-06-18 12:40:18 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-18 12:40:20 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-18 12:40:20 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-18 12:40:20 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-18 12:40:20 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-18 12:40:24 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-18 12:40:24 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 5.975 seconds (process running for 7.235)
+2026-06-18 12:40:30 INFO  [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18 12:40:30 INFO  [http-nio-9090-exec-2] E.Controller.EmployeeController - POST /employee/save called with 5 record(s)
+2026-06-18 12:40:30 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Saving 5 employee(s)
+2026-06-18 12:40:30 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:40:30 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:40:30 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:40:30 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:40:30 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:40:30 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Employees saved successfully
+2026-06-18 12:40:44 INFO  [http-nio-9090-exec-3] E.Controller.EmployeeController - GET /employee/view called
+2026-06-18 12:40:44 INFO  [http-nio-9090-exec-3] E.Service.employeeService - Fetching all employees
+2026-06-18 12:44:22 INFO  [http-nio-9090-exec-4] E.Controller.EmployeeController - GET /employee/view called
+2026-06-18 12:44:22 INFO  [http-nio-9090-exec-4] E.Service.employeeService - Fetching all employees
+2026-06-18 12:59:25 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 13520 (C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem)
+2026-06-18 12:59:25 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-18 12:59:27 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-18 12:59:27 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-18 12:59:27 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-18 12:59:27 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-18 12:59:32 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-18 12:59:32 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 7.59 seconds (process running for 9.103)
+2026-06-18 12:59:35 INFO  [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18 12:59:35 INFO  [http-nio-9090-exec-2] E.Controller.EmployeeController - POST /employee/save called with 5 record(s)
+2026-06-18 12:59:35 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Saving 5 employee(s)
+2026-06-18 12:59:35 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:59:35 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:59:35 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:59:35 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:59:35 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Data Encrypted Successfully
+2026-06-18 12:59:35 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Employees saved successfully
+2026-06-18 12:59:41 INFO  [http-nio-9090-exec-3] E.Controller.EmployeeController - GET /employee/view called
+2026-06-18 12:59:41 INFO  [http-nio-9090-exec-3] E.Service.employeeService - Fetching all employees
+2026-06-18 12:59:41 INFO  [http-nio-9090-exec-3] E.Service.employeeService - Data Decryptedd Successfully
+2026-06-18 12:59:41 INFO  [http-nio-9090-exec-3] E.Service.employeeService - Data Decryptedd Successfully
+2026-06-18 12:59:41 INFO  [http-nio-9090-exec-3] E.Service.employeeService - Data Decryptedd Successfully
+2026-06-18 12:59:41 INFO  [http-nio-9090-exec-3] E.Service.employeeService - Data Decryptedd Successfully
+2026-06-18 12:59:41 INFO  [http-nio-9090-exec-3] E.Service.employeeService - Data Decryptedd Successfully
+2026-06-18 12:59:41 INFO  [http-nio-9090-exec-3] E.Service.employeeService - Total employees found: 5

@@ -1,5 +1,6 @@
 package EmployeeManagementSystem.Service;
 
+import EmployeeManagementSystem.EncryptionDecryption.AESEncryption;
 import EmployeeManagementSystem.Entity.Employee;
 import EmployeeManagementSystem.Enum.empStatus;
 import EmployeeManagementSystem.ExceptionHandler.EmployeeNotFoundException;
@@ -20,27 +21,35 @@ public class employeeService {
     @Autowired
     EmpRepo empRepo;
 
-    // ─────────────────────────────────────────────────────
-    // SAVE EMPLOYEE(S)
-    // ─────────────────────────────────────────────────────
+
     public void saveEmployee(List<Employee> employees) {
         logger.trace("saveEmployee() called with {} employee(s): {}", employees.size(), employees);
 
         logger.info("Saving {} employee(s)", employees.size());
+
+        employees.forEach(emp -> {
+            emp.setEmail(AESEncryption.encrypt(emp.getEmail()));
+            logger.info("Data Encrypted Successfully");
+        });
+
         empRepo.saveAll(employees);
         logger.info("Employees saved successfully");
 
         logger.trace("saveEmployee() completed");
     }
 
-    // ─────────────────────────────────────────────────────
-    // VIEW ALL EMPLOYEES
-    // ─────────────────────────────────────────────────────
     public List<Employee> viewAllEmployee() {
         logger.trace("viewAllEmployee() called");
 
         logger.info("Fetching all employees");
+
+
         List<Employee> list = empRepo.findAll();
+
+        list.forEach(emp->{
+            emp.setEmail(AESEncryption.decrypt(emp.getEmail()));
+            logger.info("Data Decryptedd Successfully");
+        });
 
         if (list.isEmpty()) {
             logger.warn("No employees found in the database");
@@ -52,9 +61,7 @@ public class employeeService {
         return list;
     }
 
-    // ─────────────────────────────────────────────────────
-    // VIEW BY ID
-    // ─────────────────────────────────────────────────────
+
     public Optional<Employee> viewById(Long id) {
         logger.trace("viewById() called with ID: {}", id);
 
@@ -71,9 +78,7 @@ public class employeeService {
         return result;
     }
 
-    // ─────────────────────────────────────────────────────
-    // UPDATE EMPLOYEE
-    // ─────────────────────────────────────────────────────
+
     public Employee updateEmployee(Long id, Employee updatedEmployee) {
         logger.trace("updateEmployee() called with ID: {} and data: {}", id, updatedEmployee);
 
@@ -103,9 +108,7 @@ public class employeeService {
         return saved;
     }
 
-    // ─────────────────────────────────────────────────────
-    // DELETE EMPLOYEE
-    // ─────────────────────────────────────────────────────
+
     public void deleteEmployee(Long id) {
         logger.trace("deleteEmployee() called with ID: {}", id);
 
@@ -123,9 +126,7 @@ public class employeeService {
         logger.trace("deleteEmployee() completed for ID: {}", id);
     }
 
-    // ─────────────────────────────────────────────────────
-    // SEARCH BY NAME
-    // ─────────────────────────────────────────────────────
+
     public List<Employee> searchByName(String name) {
         logger.trace("searchByName() called with name: '{}'", name);
 
@@ -145,9 +146,7 @@ public class employeeService {
         return result;
     }
 
-    // ─────────────────────────────────────────────────────
-    // SEARCH BY DESIGNATION
-    // ─────────────────────────────────────────────────────
+
     public List<Employee> searchByDesignation(String designation) {
         logger.trace("searchByDesignation() called with: '{}'", designation);
 
@@ -163,9 +162,6 @@ public class employeeService {
         return result;
     }
 
-    // ─────────────────────────────────────────────────────
-    // FILTER BY STATUS
-    // ─────────────────────────────────────────────────────
     public List<Employee> filterByStatus(empStatus status) {
         logger.trace("filterByStatus() called with status: {}", status);
 
