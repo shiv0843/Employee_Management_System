@@ -1,14 +1,5 @@
 package EmployeeManagementSystem.Service;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-import EmployeeManagementSystem.EncryptionDecryption.AESUtil;
-=======
-import EmployeeManagementSystem.EncryptionDecryption.AESEncryption;
->>>>>>> employeeManagement-shiv
-=======
-import EmployeeManagementSystem.EncryptionDecryption.AESEncryption;
->>>>>>> employeeManagement-shiv
 import EmployeeManagementSystem.Entity.Employee;
 import EmployeeManagementSystem.Enum.empStatus;
 import EmployeeManagementSystem.ExceptionHandler.EmployeeNotFoundException;
@@ -29,73 +20,28 @@ public class employeeService {
     @Autowired
     EmpRepo empRepo;
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> employeeManagement-shiv
-=======
-
->>>>>>> employeeManagement-shiv
+    // ─────────────────────────────────────────────────────
+    // SAVE EMPLOYEE(S)
+    // ─────────────────────────────────────────────────────
     public void saveEmployee(List<Employee> employees) {
         logger.trace("saveEmployee() called with {} employee(s): {}", employees.size(), employees);
 
         logger.info("Saving {} employee(s)", employees.size());
-<<<<<<< HEAD
-<<<<<<< HEAD
-        employees.forEach(emp->{
-            emp.setEmail(AESUtil.encrypt(emp.getEmail()));
-        });
-
-
-=======
-=======
->>>>>>> employeeManagement-shiv
-
-        employees.forEach(emp -> {
-            emp.setEmail(AESEncryption.encrypt(emp.getEmail()));
-            logger.info("Data Encrypted Successfully");
-        });
-
-<<<<<<< HEAD
->>>>>>> employeeManagement-shiv
-=======
->>>>>>> employeeManagement-shiv
         empRepo.saveAll(employees);
         logger.info("Employees saved successfully");
 
         logger.trace("saveEmployee() completed");
     }
 
+    // ─────────────────────────────────────────────────────
+    // VIEW ALL EMPLOYEES
+    // ─────────────────────────────────────────────────────
     public List<Employee> viewAllEmployee() {
         logger.trace("viewAllEmployee() called");
 
         logger.info("Fetching all employees");
-<<<<<<< HEAD
-
-
-        List<Employee> list = empRepo.findAll();
-<<<<<<< HEAD
-        list.forEach(emp->{
-            emp.setEmail(AESUtil.decrypt(emp.getEmail()));
-        });
-=======
-
-=======
-
-
         List<Employee> list = empRepo.findAll();
 
->>>>>>> employeeManagement-shiv
-        list.forEach(emp->{
-            emp.setEmail(AESEncryption.decrypt(emp.getEmail()));
-            logger.info("Data Decryptedd Successfully");
-        });
-
-<<<<<<< HEAD
->>>>>>> employeeManagement-shiv
-=======
->>>>>>> employeeManagement-shiv
         if (list.isEmpty()) {
             logger.warn("No employees found in the database");
         } else {
@@ -106,14 +52,9 @@ public class employeeService {
         return list;
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> employeeManagement-shiv
-=======
-
->>>>>>> employeeManagement-shiv
+    // ─────────────────────────────────────────────────────
+    // VIEW BY ID
+    // ─────────────────────────────────────────────────────
     public Optional<Employee> viewById(Long id) {
         logger.trace("viewById() called with ID: {}", id);
 
@@ -130,14 +71,9 @@ public class employeeService {
         return result;
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> employeeManagement-shiv
-=======
-
->>>>>>> employeeManagement-shiv
+    // ─────────────────────────────────────────────────────
+    // UPDATE EMPLOYEE
+    // ─────────────────────────────────────────────────────
     public Employee updateEmployee(Long id, Employee updatedEmployee) {
         logger.trace("updateEmployee() called with ID: {} and data: {}", id, updatedEmployee);
 
@@ -167,7 +103,9 @@ public class employeeService {
         return saved;
     }
 
-
+    // ─────────────────────────────────────────────────────
+    // DELETE EMPLOYEE
+    // ─────────────────────────────────────────────────────
     public void deleteEmployee(Long id) {
         logger.trace("deleteEmployee() called with ID: {}", id);
 
@@ -185,14 +123,9 @@ public class employeeService {
         logger.trace("deleteEmployee() completed for ID: {}", id);
     }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-
->>>>>>> employeeManagement-shiv
-=======
-
->>>>>>> employeeManagement-shiv
+    // ─────────────────────────────────────────────────────
+    // SEARCH BY NAME
+    // ─────────────────────────────────────────────────────
     public List<Employee> searchByName(String name) {
         logger.trace("searchByName() called with name: '{}'", name);
 
@@ -212,7 +145,9 @@ public class employeeService {
         return result;
     }
 
-
+    // ─────────────────────────────────────────────────────
+    // SEARCH BY DESIGNATION
+    // ─────────────────────────────────────────────────────
     public List<Employee> searchByDesignation(String designation) {
         logger.trace("searchByDesignation() called with: '{}'", designation);
 
@@ -228,6 +163,9 @@ public class employeeService {
         return result;
     }
 
+    // ─────────────────────────────────────────────────────
+    // FILTER BY STATUS
+    // ─────────────────────────────────────────────────────
     public List<Employee> filterByStatus(empStatus status) {
         logger.trace("filterByStatus() called with status: {}", status);
 
