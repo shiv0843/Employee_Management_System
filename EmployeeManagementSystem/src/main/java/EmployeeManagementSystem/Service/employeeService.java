@@ -1,7 +1,11 @@
 package EmployeeManagementSystem.Service;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import EmployeeManagementSystem.EncryptionDecryption.AESUtil;
+=======
+import EmployeeManagementSystem.EncryptionDecryption.AESEncryption;
+>>>>>>> employeeManagement-shiv
 =======
 import EmployeeManagementSystem.EncryptionDecryption.AESEncryption;
 >>>>>>> employeeManagement-shiv
@@ -26,6 +30,10 @@ public class employeeService {
     EmpRepo empRepo;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> employeeManagement-shiv
 =======
 
 >>>>>>> employeeManagement-shiv
@@ -34,18 +42,24 @@ public class employeeService {
 
         logger.info("Saving {} employee(s)", employees.size());
 <<<<<<< HEAD
+<<<<<<< HEAD
         employees.forEach(emp->{
             emp.setEmail(AESUtil.encrypt(emp.getEmail()));
         });
 
 
 =======
+=======
+>>>>>>> employeeManagement-shiv
 
         employees.forEach(emp -> {
             emp.setEmail(AESEncryption.encrypt(emp.getEmail()));
             logger.info("Data Encrypted Successfully");
         });
 
+<<<<<<< HEAD
+>>>>>>> employeeManagement-shiv
+=======
 >>>>>>> employeeManagement-shiv
         empRepo.saveAll(employees);
         logger.info("Employees saved successfully");
@@ -57,6 +71,7 @@ public class employeeService {
         logger.trace("viewAllEmployee() called");
 
         logger.info("Fetching all employees");
+<<<<<<< HEAD
 
 
         List<Employee> list = empRepo.findAll();
@@ -66,11 +81,20 @@ public class employeeService {
         });
 =======
 
+=======
+
+
+        List<Employee> list = empRepo.findAll();
+
+>>>>>>> employeeManagement-shiv
         list.forEach(emp->{
             emp.setEmail(AESEncryption.decrypt(emp.getEmail()));
             logger.info("Data Decryptedd Successfully");
         });
 
+<<<<<<< HEAD
+>>>>>>> employeeManagement-shiv
+=======
 >>>>>>> employeeManagement-shiv
         if (list.isEmpty()) {
             logger.warn("No employees found in the database");
@@ -83,6 +107,10 @@ public class employeeService {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> employeeManagement-shiv
 =======
 
 >>>>>>> employeeManagement-shiv
@@ -103,6 +131,10 @@ public class employeeService {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> employeeManagement-shiv
 =======
 
 >>>>>>> employeeManagement-shiv
@@ -154,6 +186,10 @@ public class employeeService {
     }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> employeeManagement-shiv
 =======
 
 >>>>>>> employeeManagement-shiv
