@@ -126,3 +126,84 @@
 2026-06-18 14:13:20 INFO  [http-nio-9090-exec-2] E.Controller.EmployeeController - GET /employee/view called
 2026-06-18 14:13:20 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Fetching all employees
 2026-06-18 14:13:20 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Total employees found: 10
+2026-06-18 14:09:58 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 1908 (C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem)
+2026-06-18 14:09:58 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-18 14:10:01 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-18 14:10:01 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-18 14:10:01 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-18 14:10:01 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-18 14:10:06 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-18 14:10:06 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 8.662 seconds (process running for 10.175)
+2026-06-18 14:10:27 INFO  [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18 14:10:27 INFO  [http-nio-9090-exec-1] E.Controller.EmployeeController - POST /employee/save called with 5 record(s)
+2026-06-18 14:10:27 INFO  [http-nio-9090-exec-1] E.Service.employeeService - Saving 5 employee(s)
+2026-06-18 14:10:28 INFO  [http-nio-9090-exec-1] E.Service.employeeService - Employees saved successfully
+2026-06-18 14:10:35 INFO  [http-nio-9090-exec-3] E.Controller.EmployeeController - GET /employee/view called
+2026-06-18 14:10:35 INFO  [http-nio-9090-exec-3] E.Service.employeeService - Fetching all employees
+2026-06-18 14:10:35 INFO  [http-nio-9090-exec-3] E.Service.employeeService - Total employees found: 10
+2026-06-18 14:13:12 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 14684 (C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem)
+2026-06-18 14:13:12 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-18 14:13:14 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-18 14:13:14 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-18 14:13:14 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-18 14:13:14 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-18 14:13:19 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-18 14:13:19 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 7.746 seconds (process running for 9.513)
+2026-06-18 14:13:20 INFO  [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18 14:13:20 INFO  [http-nio-9090-exec-2] E.Controller.EmployeeController - GET /employee/view called
+2026-06-18 14:13:20 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Fetching all employees
+2026-06-18 14:13:20 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Total employees found: 10
+2026-06-18 14:09:58 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 1908 (C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem)
+2026-06-18 14:09:58 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-18 14:10:01 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-18 14:10:01 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-18 14:10:01 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-18 14:10:01 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-18 14:10:06 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-18 14:10:06 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 8.662 seconds (process running for 10.175)
+2026-06-18 14:10:27 INFO  [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18 14:10:27 INFO  [http-nio-9090-exec-1] E.Controller.EmployeeController - POST /employee/save called with 5 record(s)
+2026-06-18 14:10:27 INFO  [http-nio-9090-exec-1] E.Service.employeeService - Saving 5 employee(s)
+2026-06-18 14:10:28 INFO  [http-nio-9090-exec-1] E.Service.employeeService - Employees saved successfully
+2026-06-18 14:10:35 INFO  [http-nio-9090-exec-3] E.Controller.EmployeeController - GET /employee/view called
+2026-06-18 14:10:35 INFO  [http-nio-9090-exec-3] E.Service.employeeService - Fetching all employees
+2026-06-18 14:10:35 INFO  [http-nio-9090-exec-3] E.Service.employeeService - Total employees found: 10
+2026-06-18 14:13:12 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 14684 (C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem)
+2026-06-18 14:13:12 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-18 14:13:14 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-18 14:13:14 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-18 14:13:14 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-18 14:13:14 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-18 14:13:19 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-18 14:13:19 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 7.746 seconds (process running for 9.513)
+2026-06-18 14:13:20 INFO  [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18 14:13:20 INFO  [http-nio-9090-exec-2] E.Controller.EmployeeController - GET /employee/view called
+2026-06-18 14:13:20 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Fetching all employees
+2026-06-18 14:13:20 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Total employees found: 10
+2026-06-18 14:09:58 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 1908 (C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem)
+2026-06-18 14:09:58 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-18 14:10:01 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-18 14:10:01 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-18 14:10:01 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-18 14:10:01 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-18 14:10:06 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-18 14:10:06 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 8.662 seconds (process running for 10.175)
+2026-06-18 14:10:27 INFO  [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18 14:10:27 INFO  [http-nio-9090-exec-1] E.Controller.EmployeeController - POST /employee/save called with 5 record(s)
+2026-06-18 14:10:27 INFO  [http-nio-9090-exec-1] E.Service.employeeService - Saving 5 employee(s)
+2026-06-18 14:10:28 INFO  [http-nio-9090-exec-1] E.Service.employeeService - Employees saved successfully
+2026-06-18 14:10:35 INFO  [http-nio-9090-exec-3] E.Controller.EmployeeController - GET /employee/view called
+2026-06-18 14:10:35 INFO  [http-nio-9090-exec-3] E.Service.employeeService - Fetching all employees
+2026-06-18 14:10:35 INFO  [http-nio-9090-exec-3] E.Service.employeeService - Total employees found: 10
+2026-06-18 14:13:12 INFO  [main] E.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.19 with PID 14684 (C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem\EmployeeManagementSystem\target\classes started by shivraj.mahatme in C:\Users\shivraj.mahatme\Documents\ShivraMahatme_EmployeeManagementSystem)
+2026-06-18 14:13:12 INFO  [main] E.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2026-06-18 14:13:14 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9090"]
+2026-06-18 14:13:14 INFO  [main] o.a.catalina.core.StandardService - Starting service [Tomcat]
+2026-06-18 14:13:14 INFO  [main] o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.55]
+2026-06-18 14:13:14 INFO  [main] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-06-18 14:13:19 INFO  [main] o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9090"]
+2026-06-18 14:13:19 INFO  [main] E.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 7.746 seconds (process running for 9.513)
+2026-06-18 14:13:20 INFO  [http-nio-9090-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-06-18 14:13:20 INFO  [http-nio-9090-exec-2] E.Controller.EmployeeController - GET /employee/view called
+2026-06-18 14:13:20 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Fetching all employees
+2026-06-18 14:13:20 INFO  [http-nio-9090-exec-2] E.Service.employeeService - Total employees found: 10
